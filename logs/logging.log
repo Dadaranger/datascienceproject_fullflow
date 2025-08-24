@@ -255,3 +255,241 @@ x==========x
 [2025-08-24 22:01:00,943] INFO in main: >>>>>> stage Data Ingestion Stage completed <<<<<<
 
 x==========x
+[2025-08-25 01:47:48,113] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 01:47:48,208] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 01:47:48,228] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 01:47:48,281] INFO in common: created directory at: artifacts
+[2025-08-25 01:49:52,729] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 01:49:52,730] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 01:49:52,740] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 01:49:52,742] INFO in common: created directory at: artifacts
+[2025-08-25 01:52:56,043] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 01:52:56,043] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 01:52:56,054] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 01:52:56,056] INFO in common: created directory at: artifacts
+[2025-08-25 03:33:38,673] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 03:33:38,675] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 03:33:38,686] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 03:33:38,689] INFO in common: created directory at: artifacts
+[2025-08-25 03:35:30,867] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 03:35:30,867] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 03:35:30,878] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 03:35:30,880] INFO in common: created directory at: artifacts
+[2025-08-25 03:35:44,792] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 03:35:44,795] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 03:35:44,801] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 03:35:44,804] INFO in common: created directory at: artifacts
+[2025-08-25 03:39:49,928] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 03:39:49,931] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 03:39:49,938] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 03:39:49,942] INFO in common: created directory at: artifacts
+[2025-08-25 03:45:35,314] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 03:45:35,316] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 03:45:35,324] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 03:45:35,327] INFO in common: created directory at: artifacts
+[2025-08-25 03:47:39,265] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 03:47:39,268] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 03:47:39,277] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 03:47:39,279] INFO in common: created directory at: artifacts
+[2025-08-25 03:48:36,849] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 03:48:36,854] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 03:48:36,862] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 03:48:36,933] INFO in common: created directory at: artifacts
+[2025-08-25 03:49:05,264] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 03:49:05,265] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 03:49:05,272] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 03:49:05,272] INFO in common: created directory at: artifacts
+[2025-08-25 03:50:33,867] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 03:50:33,870] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 03:50:33,872] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 03:50:33,878] INFO in common: created directory at: artifacts
+[2025-08-25 03:52:23,271] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 03:52:23,273] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 03:52:23,278] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 03:52:23,280] INFO in common: created directory at: artifacts
+[2025-08-25 03:52:23,283] INFO in common: created directory at: artifacts\data_validation
+[2025-08-25 04:04:23,177] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:04:23,180] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:04:23,185] INFO in common: YAML file c:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:04:23,189] INFO in common: created directory at: artifacts
+[2025-08-25 04:15:29,940] INFO in main: Welcome to our custom logging setup!
+[2025-08-25 04:15:29,959] INFO in main: >>>>>> stage Data Ingestion Stage started <<<<<<
+[2025-08-25 04:15:29,959] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage started <<<<<<
+[2025-08-25 04:15:29,964] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:15:29,978] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:15:29,983] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:15:29,984] INFO in common: created directory at: artifacts
+[2025-08-25 04:15:29,985] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-25 04:15:29,985] INFO in pipeline_data_ingestion: Downloading file...
+[2025-08-25 04:15:30,139] INFO in pipeline_data_ingestion: Extracting file...
+[2025-08-25 04:15:30,179] INFO in data_ingestion: ZIP file contains: ['winequality-white.csv']
+[2025-08-25 04:15:30,185] INFO in data_ingestion: File extracted successfully to: artifacts/data_ingestion
+[2025-08-25 04:15:30,185] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:15:30,185] INFO in main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:15:30,189] INFO in main: >>>>>> stage Data Validation Stage started <<<<<<
+[2025-08-25 04:15:30,192] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:15:30,193] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:15:30,201] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:15:30,204] INFO in common: created directory at: artifacts
+[2025-08-25 04:15:30,209] INFO in common: created directory at: artifacts/data_validation
+[2025-08-25 04:15:30,209] ERROR in main: Error in data validation process: "'ConfigBox' object has no attribute 'all_schema'"
+[2025-08-25 04:19:36,636] INFO in main: Welcome to our custom logging setup!
+[2025-08-25 04:19:36,636] INFO in main: >>>>>> stage Data Ingestion Stage started <<<<<<
+[2025-08-25 04:19:36,636] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage started <<<<<<
+[2025-08-25 04:19:36,636] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:19:36,636] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:19:36,646] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:19:36,646] INFO in common: created directory at: artifacts
+[2025-08-25 04:19:36,648] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-25 04:19:36,648] INFO in pipeline_data_ingestion: Downloading file...
+[2025-08-25 04:19:36,649] INFO in pipeline_data_ingestion: Extracting file...
+[2025-08-25 04:19:36,652] INFO in data_ingestion: ZIP file contains: ['winequality-white.csv']
+[2025-08-25 04:19:36,654] INFO in data_ingestion: File extracted successfully to: artifacts/data_ingestion
+[2025-08-25 04:19:36,656] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:19:36,656] INFO in main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:19:36,656] INFO in main: >>>>>> stage Data Validation Stage started <<<<<<
+[2025-08-25 04:19:36,659] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:19:36,660] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:19:36,662] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:19:36,662] INFO in common: created directory at: artifacts
+[2025-08-25 04:19:36,666] INFO in common: created directory at: artifacts/data_validation
+[2025-08-25 04:19:36,738] INFO in main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:30:38,192] INFO in main: Welcome to our custom logging setup!
+[2025-08-25 04:30:38,192] INFO in main: >>>>>> stage Data Ingestion Stage started <<<<<<
+[2025-08-25 04:30:38,192] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage started <<<<<<
+[2025-08-25 04:30:38,192] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:30:38,192] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:30:38,201] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:30:38,201] INFO in common: created directory at: artifacts
+[2025-08-25 04:30:38,201] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-25 04:30:38,201] INFO in pipeline_data_ingestion: Downloading file...
+[2025-08-25 04:30:38,201] INFO in pipeline_data_ingestion: Extracting file...
+[2025-08-25 04:30:38,201] INFO in data_ingestion: ZIP file contains: ['winequality-white.csv']
+[2025-08-25 04:30:38,201] INFO in data_ingestion: File extracted successfully to: artifacts/data_ingestion
+[2025-08-25 04:30:38,201] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:30:38,201] INFO in main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:30:38,201] INFO in main: >>>>>> stage Data Validation Stage started <<<<<<
+[2025-08-25 04:30:38,214] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:30:38,215] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:30:38,219] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:30:38,220] INFO in common: created directory at: artifacts
+[2025-08-25 04:30:38,221] INFO in common: created directory at: artifacts/data_validation
+[2025-08-25 04:30:38,221] ERROR in main: Error in data validation process: name 'create_directories' is not defined
+[2025-08-25 04:30:58,840] INFO in main: Welcome to our custom logging setup!
+[2025-08-25 04:30:58,840] INFO in main: >>>>>> stage Data Ingestion Stage started <<<<<<
+[2025-08-25 04:30:58,840] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage started <<<<<<
+[2025-08-25 04:30:58,840] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:30:58,840] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:30:58,840] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:30:58,840] INFO in common: created directory at: artifacts
+[2025-08-25 04:30:58,849] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-25 04:30:58,849] INFO in pipeline_data_ingestion: Downloading file...
+[2025-08-25 04:30:58,850] INFO in pipeline_data_ingestion: Extracting file...
+[2025-08-25 04:30:58,853] INFO in data_ingestion: ZIP file contains: ['winequality-white.csv']
+[2025-08-25 04:30:58,856] INFO in data_ingestion: File extracted successfully to: artifacts/data_ingestion
+[2025-08-25 04:30:58,856] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:30:58,857] INFO in main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:30:58,857] INFO in main: >>>>>> stage Data Validation Stage started <<<<<<
+[2025-08-25 04:30:58,860] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:30:58,861] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:30:58,866] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:30:58,867] INFO in common: created directory at: artifacts
+[2025-08-25 04:30:58,868] INFO in common: created directory at: artifacts/data_validation
+[2025-08-25 04:30:58,868] ERROR in main: Error in data validation process: name 'create_directories' is not defined
+[2025-08-25 04:31:13,022] INFO in main: Welcome to our custom logging setup!
+[2025-08-25 04:31:13,022] INFO in main: >>>>>> stage Data Ingestion Stage started <<<<<<
+[2025-08-25 04:31:13,022] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage started <<<<<<
+[2025-08-25 04:31:13,022] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:31:13,022] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:31:13,022] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:31:13,032] INFO in common: created directory at: artifacts
+[2025-08-25 04:31:13,033] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-25 04:31:13,033] INFO in pipeline_data_ingestion: Downloading file...
+[2025-08-25 04:31:13,034] INFO in pipeline_data_ingestion: Extracting file...
+[2025-08-25 04:31:13,037] INFO in data_ingestion: ZIP file contains: ['winequality-white.csv']
+[2025-08-25 04:31:13,039] INFO in data_ingestion: File extracted successfully to: artifacts/data_ingestion
+[2025-08-25 04:31:13,039] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:31:13,039] INFO in main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:31:13,042] INFO in main: >>>>>> stage Data Validation Stage started <<<<<<
+[2025-08-25 04:31:13,045] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:31:13,046] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:31:13,047] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:31:13,047] INFO in common: created directory at: artifacts
+[2025-08-25 04:31:13,047] INFO in common: created directory at: artifacts/data_validation
+[2025-08-25 04:31:13,081] INFO in main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:35:01,855] INFO in main: Welcome to our custom logging setup!
+[2025-08-25 04:35:01,855] INFO in main: >>>>>> stage Data Ingestion Stage started <<<<<<
+[2025-08-25 04:35:01,855] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage started <<<<<<
+[2025-08-25 04:35:01,855] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:35:01,855] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:35:01,855] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:35:01,855] INFO in common: created directory at: artifacts
+[2025-08-25 04:35:01,864] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-25 04:35:01,864] INFO in pipeline_data_ingestion: Downloading file...
+[2025-08-25 04:35:01,865] INFO in pipeline_data_ingestion: Extracting file...
+[2025-08-25 04:35:01,867] INFO in data_ingestion: ZIP file contains: ['winequality-white.csv']
+[2025-08-25 04:35:01,870] INFO in data_ingestion: File extracted successfully to: artifacts/data_ingestion
+[2025-08-25 04:35:01,871] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:35:01,871] INFO in main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:35:01,872] INFO in main: >>>>>> stage Data Validation Stage started <<<<<<
+[2025-08-25 04:35:01,874] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:35:01,876] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:35:01,880] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:35:01,881] INFO in common: created directory at: artifacts
+[2025-08-25 04:35:01,882] INFO in common: created directory at: artifacts/data_validation
+[2025-08-25 04:35:01,882] ERROR in main: Error in data validation process: name 'create_directories' is not defined
+[2025-08-25 04:35:16,276] INFO in main: Welcome to our custom logging setup!
+[2025-08-25 04:35:16,276] INFO in main: >>>>>> stage Data Ingestion Stage started <<<<<<
+[2025-08-25 04:35:16,276] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage started <<<<<<
+[2025-08-25 04:35:16,276] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:35:16,276] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:35:16,276] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:35:16,276] INFO in common: created directory at: artifacts
+[2025-08-25 04:35:16,284] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-25 04:35:16,284] INFO in pipeline_data_ingestion: Downloading file...
+[2025-08-25 04:35:16,285] INFO in pipeline_data_ingestion: Extracting file...
+[2025-08-25 04:35:16,288] INFO in data_ingestion: ZIP file contains: ['winequality-white.csv']
+[2025-08-25 04:35:16,292] INFO in data_ingestion: File extracted successfully to: artifacts/data_ingestion
+[2025-08-25 04:35:16,293] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:35:16,293] INFO in main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-25 04:35:16,294] INFO in main: >>>>>> stage Data Validation Stage started <<<<<<
+[2025-08-25 04:35:16,296] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-25 04:35:16,298] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-25 04:35:16,300] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-25 04:35:16,301] INFO in common: created directory at: artifacts
+[2025-08-25 04:35:16,302] INFO in common: created directory at: artifacts/data_validation
+[2025-08-25 04:35:16,328] INFO in main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x

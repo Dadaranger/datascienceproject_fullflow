@@ -2,11 +2,12 @@ import os
 from pathlib import Path
 import logging
 
+logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 project_name="datascienceproject"
 
-list_of_files = [
-    ".github/workflows/.gitkeep",
-    f"src/{project_name}/__init__.py", 
+list_of_files=[
+    ".gthub/workflows/.gitkeep",
+    f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/utils/common.py",
@@ -14,14 +15,17 @@ list_of_files = [
     f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__.py",
-    f"src/{project_name}/constant/__init__.py",
-    "configs/config.yaml",
+    f"src/{project_name}/entity/config_entity.py",
+    f"src/{project_name}/constants/__init__.py",
+    "config/config.yaml",
+    "params.yaml",
     "schema.yaml",
     "main.py",
     "Dockerfile",
     "setup.py",
     "research/research.ipynb",
-    "templates/index.html"
+    "templates/index.html",
+    "app.py"
 
 ]
 

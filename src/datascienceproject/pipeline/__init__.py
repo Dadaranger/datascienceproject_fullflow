@@ -1,0 +1,1 @@
+from src.datascienceproject.pipeline.pipeline_data_ingestion import DataIngestionTrainingPipeline

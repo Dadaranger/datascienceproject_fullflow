@@ -1,1 +1,257 @@
 [2025-08-21 09:19:50,728] INFO in main: Welcome to our custom logging setup!
+[2025-08-24 04:52:35,103] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 04:52:35,162] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 04:52:35,165] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 04:52:35,168] INFO in common: created directory at: artifacts
+[2025-08-24 04:52:35,171] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 04:52:35,177] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 04:52:35,179] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 04:52:35,181] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 04:52:35,211] INFO in common: created directory at: artifacts
+[2025-08-24 04:52:35,211] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 04:54:27,177] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 04:54:27,179] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 04:54:27,179] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 04:54:27,186] INFO in common: created directory at: artifacts
+[2025-08-24 04:54:27,188] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 04:54:27,190] ERROR in 3547310501: Error in data ingestion: name 'request' is not defined
+[2025-08-24 04:54:57,888] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 04:54:57,891] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 04:54:57,893] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 04:54:57,896] INFO in common: created directory at: artifacts
+[2025-08-24 04:54:57,899] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 04:54:58,919] INFO in 1999310234: artifacts\data_ingestion\data.zip downloaded! with following info: 
+Date: Sat, 23 Aug 2025 20:54:59 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
+x-repository-download: git clone https://github.com/Dadaranger/dataset.git
+x-raw-download: https://raw.githubusercontent.com/Dadaranger/dataset/main/winequality-white.zip
+ETag: W/"66b6bbe8f5392373ab710377bd5a409f"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+Server: github.com
+Accept-Ranges: bytes
+Set-Cookie: _gh_sess=7ma%2FIJBSegjs9IyWetBxV4GP3WHHCdfiGXibj%2FGG3raVptqgpupp0lQ%2B7LDtK%2FUNLKSyOo927%2FnKYFluBO3rW2ld7XsPECZYGnHxnNUZaliSHuNAQdLa8%2FJAKiqaVeW8oc5PkUrSFCS76I1KvjwDLtCXklYDYaAMWNvgXINF%2B3dwyuMUDaGMOnqKGk2qVWDfPNLx%2FkLzjpCgghmlNX9k7RbKHITL4NNFIoH7yc9rF3S8RzF6qWrwoERuUfB3ZYCm0EqwwbFyJKlzb9j%2F9c7DwA%3D%3D--VgyTRT7zQHYFC7%2FS--gObDs%2Bb1zlKFMyOsYf5rpA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.342362481.1755982498; Path=/; Domain=github.com; Expires=Sun, 23 Aug 2026 20:54:58 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 23 Aug 2026 20:54:58 GMT; HttpOnly; Secure; SameSite=Lax
+X-GitHub-Request-Id: CC23:BA968:11040A8:15DD081:68AA2AA2
+connection: close
+Transfer-Encoding: chunked
+
+
+[2025-08-24 04:54:59,486] ERROR in 1999310234: Error extracting zip file: File is not a zip file
+[2025-08-24 04:54:59,488] ERROR in 3547310501: Error in data ingestion: File is not a zip file
+[2025-08-24 04:57:01,325] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 04:57:01,325] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 04:57:01,325] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 04:57:01,332] INFO in common: created directory at: artifacts
+[2025-08-24 04:57:01,335] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 04:57:01,336] INFO in 353469490: File already exists at artifacts\data_ingestion\data.zip with size: 183244 bytes
+[2025-08-24 04:57:01,338] INFO in 353469490: Attempting to unzip file: artifacts\data_ingestion\data.zip
+[2025-08-24 04:57:01,341] INFO in 353469490: Target directory: artifacts\data_ingestion
+[2025-08-24 04:57:01,344] ERROR in 353469490: Invalid zip file: File is not a zip file
+[2025-08-24 04:57:01,346] ERROR in 3547310501: Error in data ingestion: File is not a zip file
+[2025-08-24 04:57:24,942] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 04:57:24,944] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 04:57:24,949] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 04:57:24,951] INFO in common: created directory at: artifacts
+[2025-08-24 04:57:24,952] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 04:57:24,954] INFO in 353469490: File already exists at artifacts\data_ingestion\data.zip with size: 183244 bytes
+[2025-08-24 04:57:24,955] INFO in 353469490: Attempting to unzip file: artifacts\data_ingestion\data.zip
+[2025-08-24 04:57:24,957] INFO in 353469490: Target directory: artifacts\data_ingestion
+[2025-08-24 04:57:24,958] ERROR in 353469490: Invalid zip file: File is not a zip file
+[2025-08-24 04:57:24,964] ERROR in 3547310501: Error in data ingestion: File is not a zip file
+[2025-08-24 04:59:24,710] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 04:59:24,716] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 04:59:24,719] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 04:59:24,722] INFO in common: created directory at: artifacts
+[2025-08-24 04:59:24,724] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 04:59:24,725] INFO in 353469490: File already exists at artifacts\data_ingestion\data.zip with size: 183244 bytes
+[2025-08-24 04:59:24,728] INFO in 353469490: Attempting to unzip file: artifacts\data_ingestion\data.zip
+[2025-08-24 04:59:24,731] INFO in 353469490: Target directory: artifacts\data_ingestion
+[2025-08-24 04:59:24,734] ERROR in 353469490: Invalid zip file: File is not a zip file
+[2025-08-24 04:59:24,736] ERROR in 3547310501: Error in data ingestion: File is not a zip file
+[2025-08-24 05:01:05,812] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 05:01:05,815] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 05:01:05,817] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 05:01:05,819] INFO in common: created directory at: artifacts
+[2025-08-24 05:01:05,819] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 05:01:05,825] INFO in 1166944718: File already exists at artifacts\data_ingestion\data.zip with size: 183244 bytes
+[2025-08-24 05:01:05,827] ERROR in 1166944718: File does not appear to be a valid ZIP. First bytes: b'\n\n\n\n\n\n<!DOCTYPE html>\n<html\n  lang="en"\n  \n  data-'
+[2025-08-24 05:01:05,829] ERROR in 1166944718: Error in download process: Downloaded file is not a valid ZIP file: artifacts\data_ingestion\data.zip
+[2025-08-24 05:01:05,830] ERROR in 3547310501: Error in data ingestion: Downloaded file is not a valid ZIP file: artifacts\data_ingestion\data.zip
+[2025-08-24 05:02:09,958] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 05:02:09,964] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 05:02:09,967] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 05:02:09,968] INFO in common: created directory at: artifacts
+[2025-08-24 05:02:09,970] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 05:02:09,972] INFO in 1166944718: Downloading file from https://github.com/Dadaranger/dataset/blob/main/data.zip
+[2025-08-24 05:02:10,528] INFO in 1166944718: Content-Type from server: text/html; charset=utf-8
+[2025-08-24 05:02:10,600] INFO in 1166944718: File downloaded to: artifacts\data_ingestion\data.zip
+[2025-08-24 05:02:10,600] INFO in 1166944718: Response headers: 
+{'Date': 'Sat, 23 Aug 2025 21:02:10 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Vary': 'X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With', 'x-repository-download': 'git clone https://github.com/Dadaranger/dataset.git', 'x-raw-download': 'https://raw.githubusercontent.com/Dadaranger/dataset/main/data.zip', 'ETag': 'W/"be79c6e1b0f4d07942412fc9e5d06ec9"', 'Cache-Control': 'max-age=0, private, must-revalidate', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains; preload', 'X-Frame-Options': 'deny', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '0', 'Referrer-Policy': 'no-referrer-when-downgrade', 'Content-Security-Policy': "default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/", 'Server': 'github.com', 'Content-Encoding': 'gzip', 'Accept-Ranges': 'bytes', 'Set-Cookie': '_gh_sess=C88hpgWspQPjWOUF1cTDCg3UNCfcX4PlVxOF%2BgqkiSLv65lOzGXuMMWjUFiGEjdsqNYRr4FmsX7yds%2BwIyEFLcts4A%2B2TDFCco4WdNU8q9bLgKXV460ft3Xu54mVWg4Mfx5m%2FnMyvvRYvrWURejFPf3eDD9gmzc00kwKPy8hXDqx2%2FxzVSjqviWQZ%2F4XW2oyL8pXWdvO2y8I5BI1V4tL2r7qEW40wQdJxBZvlWMZnxnCEDueGV7%2FOEyo921nkPva8VoFodpyl6V25jSHA5zzig%3D%3D--R%2BtBfS5WgDFkR%2Bii--yXn%2B5rYoEuDIYX%2FrOA0%2B2A%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax, _octo=GH1.1.9525635.1755982930; Path=/; Domain=github.com; Expires=Sun, 23 Aug 2026 21:02:10 GMT; Secure; SameSite=Lax, logged_in=no; Path=/; Domain=github.com; Expires=Sun, 23 Aug 2026 21:02:10 GMT; HttpOnly; Secure; SameSite=Lax', 'X-GitHub-Request-Id': 'D986:3279FA:AE2242:DE04FF:68AA2C52', 'Transfer-Encoding': 'chunked'}
+[2025-08-24 05:02:10,663] ERROR in 1166944718: File does not appear to be a valid ZIP. First bytes: b'\n\n\n\n\n\n<!DOCTYPE html>\n<html\n  lang="en"\n  \n  data-'
+[2025-08-24 05:02:10,664] ERROR in 1166944718: Error in download process: Downloaded file is not a valid ZIP file: artifacts\data_ingestion\data.zip
+[2025-08-24 05:02:10,664] ERROR in 3547310501: Error in data ingestion: Downloaded file is not a valid ZIP file: artifacts\data_ingestion\data.zip
+[2025-08-24 05:02:18,022] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 05:02:18,028] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 05:02:18,031] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 05:02:18,032] INFO in common: created directory at: artifacts
+[2025-08-24 05:02:18,035] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 05:02:18,038] INFO in 1166944718: File already exists at artifacts\data_ingestion\data.zip with size: 182952 bytes
+[2025-08-24 05:02:18,040] ERROR in 1166944718: File does not appear to be a valid ZIP. First bytes: b'\n\n\n\n\n\n<!DOCTYPE html>\n<html\n  lang="en"\n  \n  data-'
+[2025-08-24 05:02:18,042] ERROR in 1166944718: Error in download process: Downloaded file is not a valid ZIP file: artifacts\data_ingestion\data.zip
+[2025-08-24 05:02:18,044] ERROR in 3078581343: Error in data ingestion: Downloaded file is not a valid ZIP file: artifacts\data_ingestion\data.zip
+[2025-08-24 05:04:28,509] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 05:04:28,512] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 05:04:28,515] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 05:04:28,518] INFO in common: created directory at: artifacts
+[2025-08-24 05:04:28,520] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 05:04:28,522] INFO in 512192089: File already exists at artifacts\data_ingestion\data.zip with size: 182952 bytes
+[2025-08-24 05:04:28,525] ERROR in 512192089: File does not appear to be a valid ZIP. First bytes: b'\n\n\n\n\n\n<!DOCTYPE html>\n<html\n  lang="en"\n  \n  data-color-mode="auto" data-light-theme="light" data-da'
+[2025-08-24 05:04:28,527] ERROR in 512192089: First bytes as hex: 0a0a0a0a0a0a3c21444f43545950452068746d6c3e0a3c68746d6c0a20206c616e673d22656e220a20200a2020646174612d636f6c6f722d6d6f64653d226175746f2220646174612d6c696768742d7468656d653d226c696768742220646174612d6461
+[2025-08-24 05:04:28,529] ERROR in 512192089: Error in download process: Downloaded file is not a valid ZIP file: artifacts\data_ingestion\data.zip
+[2025-08-24 05:04:28,530] ERROR in 3547310501: Error in data ingestion: Downloaded file is not a valid ZIP file: artifacts\data_ingestion\data.zip
+[2025-08-24 05:04:51,717] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 05:04:51,725] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 05:04:51,728] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 05:04:51,730] INFO in common: created directory at: artifacts
+[2025-08-24 05:04:51,732] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 05:04:51,735] INFO in 512192089: File already exists at artifacts\data_ingestion\data.zip with size: 182952 bytes
+[2025-08-24 05:04:51,737] ERROR in 512192089: File does not appear to be a valid ZIP. First bytes: b'\n\n\n\n\n\n<!DOCTYPE html>\n<html\n  lang="en"\n  \n  data-color-mode="auto" data-light-theme="light" data-da'
+[2025-08-24 05:04:51,738] ERROR in 512192089: First bytes as hex: 0a0a0a0a0a0a3c21444f43545950452068746d6c3e0a3c68746d6c0a20206c616e673d22656e220a20200a2020646174612d636f6c6f722d6d6f64653d226175746f2220646174612d6c696768742d7468656d653d226c696768742220646174612d6461
+[2025-08-24 05:04:51,740] ERROR in 512192089: Error in download process: Downloaded file is not a valid ZIP file: artifacts\data_ingestion\data.zip
+[2025-08-24 05:04:51,742] ERROR in 3078581343: Error in data ingestion: Downloaded file is not a valid ZIP file: artifacts\data_ingestion\data.zip
+[2025-08-24 05:05:02,133] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 05:05:02,141] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 05:05:02,143] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 05:05:02,145] INFO in common: created directory at: artifacts
+[2025-08-24 05:05:02,149] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 05:12:50,922] INFO in 4146881535: Starting data ingestion
+[2025-08-24 05:12:50,946] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 05:12:50,949] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 05:12:50,952] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 05:12:50,955] INFO in common: created directory at: artifacts
+[2025-08-24 05:12:50,957] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 05:12:50,960] ERROR in 4146881535: Data ingestion failed: DataIngestionConfig.__init__() missing 1 required positional argument: 'unzip_dir'
+[2025-08-24 05:14:49,497] INFO in 4146881535: Starting data ingestion
+[2025-08-24 05:14:49,503] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 05:14:49,506] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 05:14:49,509] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 05:14:49,512] INFO in common: created directory at: artifacts
+[2025-08-24 05:14:49,514] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 05:14:49,515] ERROR in 4146881535: Data ingestion failed: DataIngestionConfig.__init__() missing 1 required positional argument: 'unzip_dir'
+[2025-08-24 05:18:18,316] INFO in 4146881535: Starting data ingestion
+[2025-08-24 05:18:18,321] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 05:18:18,324] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 05:18:18,326] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 05:18:18,329] INFO in common: created directory at: artifacts
+[2025-08-24 05:18:18,331] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 05:18:18,331] ERROR in 4146881535: Data ingestion failed: Error in creating data ingestion config: DataIngestionConfig.__init__() missing 1 required positional argument: 'unzip_dir'
+[2025-08-24 07:16:41,336] INFO in 2571272890: Starting data ingestion process...
+[2025-08-24 07:16:41,342] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 07:16:41,345] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 07:16:41,348] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 07:16:41,351] INFO in common: created directory at: artifacts
+[2025-08-24 07:16:41,354] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 07:16:41,355] INFO in 2571272890: Downloading file...
+[2025-08-24 07:16:41,357] INFO in 359554513: File already exists at: artifacts/data_ingestion/data.zip
+[2025-08-24 07:16:41,360] INFO in 2571272890: Extracting file...
+[2025-08-24 07:16:41,364] ERROR in 359554513: Error extracting file: File is not a zip file
+[2025-08-24 07:16:41,366] ERROR in 2571272890: Error in data ingestion process: File is not a zip file
+[2025-08-24 07:17:21,148] INFO in 2571272890: Starting data ingestion process...
+[2025-08-24 07:17:21,291] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 07:17:21,293] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 07:17:21,295] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 07:17:21,297] INFO in common: created directory at: artifacts
+[2025-08-24 07:17:21,298] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 07:17:21,298] INFO in 2571272890: Downloading file...
+[2025-08-24 07:17:21,298] INFO in 359554513: File already exists at: artifacts/data_ingestion/data.zip
+[2025-08-24 07:17:21,298] INFO in 2571272890: Extracting file...
+[2025-08-24 07:17:21,303] ERROR in 359554513: Error extracting file: File is not a zip file
+[2025-08-24 07:17:21,306] ERROR in 2571272890: Error in data ingestion process: File is not a zip file
+[2025-08-24 07:19:25,235] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 07:19:25,241] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 07:19:25,244] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 07:19:25,245] INFO in common: created directory at: artifacts
+[2025-08-24 07:19:25,248] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 07:20:04,775] INFO in 2571272890: Starting data ingestion process...
+[2025-08-24 07:20:04,781] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 07:20:04,783] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 07:20:04,786] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 07:20:04,789] INFO in common: created directory at: artifacts
+[2025-08-24 07:20:04,789] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 07:20:04,789] INFO in 2571272890: Downloading file...
+[2025-08-24 07:20:04,796] INFO in 359554513: File already exists at: artifacts/data_ingestion/data.zip
+[2025-08-24 07:20:04,797] INFO in 2571272890: Extracting file...
+[2025-08-24 07:20:04,803] ERROR in 359554513: Error extracting file: File is not a zip file
+[2025-08-24 07:20:04,804] ERROR in 2571272890: Error in data ingestion process: File is not a zip file
+[2025-08-24 07:20:18,772] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 07:20:18,778] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 07:20:18,780] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 07:20:18,782] INFO in common: created directory at: artifacts
+[2025-08-24 07:20:18,785] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 07:22:40,408] INFO in 2571272890: Starting data ingestion process...
+[2025-08-24 07:22:40,427] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 07:22:40,430] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 07:22:40,433] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 07:22:40,436] INFO in common: created directory at: artifacts
+[2025-08-24 07:22:40,437] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 07:22:40,439] INFO in 2571272890: Downloading file...
+[2025-08-24 07:22:40,440] INFO in 359554513: File already exists at: artifacts/data_ingestion/data.zip
+[2025-08-24 07:22:40,441] INFO in 2571272890: Extracting file...
+[2025-08-24 07:22:40,445] ERROR in 359554513: Error extracting file: File is not a zip file
+[2025-08-24 07:22:40,447] ERROR in 2571272890: Error in data ingestion process: File is not a zip file
+[2025-08-24 07:24:33,375] INFO in 2571272890: Starting data ingestion process...
+[2025-08-24 07:24:33,376] INFO in common: YAML file configs\config.yaml loaded successfully.
+[2025-08-24 07:24:33,382] INFO in common: YAML file params.yaml loaded successfully.
+[2025-08-24 07:24:33,387] INFO in common: YAML file schema.yaml loaded successfully.
+[2025-08-24 07:24:33,390] INFO in common: created directory at: artifacts
+[2025-08-24 07:24:33,391] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 07:24:33,394] INFO in 2571272890: Downloading file...
+[2025-08-24 07:24:33,397] ERROR in 3506057583: File artifacts/data_ingestion/data.zip does not have a valid ZIP signature
+[2025-08-24 07:24:33,399] WARNING in 3506057583: Invalid ZIP file detected, attempting to download again...
+[2025-08-24 07:24:33,731] INFO in 2571272890: Extracting file...
+[2025-08-24 07:24:33,789] INFO in 3506057583: ZIP file contains: ['winequality-white.csv']
+[2025-08-24 07:24:33,794] INFO in 3506057583: File extracted successfully to: artifacts/data_ingestion
+[2025-08-24 07:24:33,794] INFO in 2571272890: Data ingestion completed successfully!
+[2025-08-24 21:43:10,559] INFO in pipeline_data_ingestion: Starting data ingestion process...
+[2025-08-24 21:43:10,580] ERROR in pipeline_data_ingestion: Error in data ingestion process: [Errno 2] No such file or directory: 'config\\config.yaml'
+[2025-08-24 21:49:37,197] INFO in pipeline_data_ingestion: Starting data ingestion process...
+[2025-08-24 21:49:37,197] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-24 21:49:37,212] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-24 21:49:37,215] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-24 21:49:37,216] INFO in common: created directory at: artifacts
+[2025-08-24 21:49:37,216] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 21:49:37,216] INFO in pipeline_data_ingestion: Downloading file...
+[2025-08-24 21:49:37,218] INFO in data_ingestion: Downloading from https://raw.githubusercontent.com/Dadaranger/dataset/main/winequality-white.zip to artifacts/data_ingestion/data.zip
+[2025-08-24 21:49:37,932] INFO in data_ingestion: File downloaded successfully to: artifacts/data_ingestion/data.zip
+[2025-08-24 21:49:38,011] INFO in pipeline_data_ingestion: Extracting file...
+[2025-08-24 21:49:38,015] INFO in data_ingestion: ZIP file contains: ['winequality-white.csv']
+[2025-08-24 21:49:38,018] INFO in data_ingestion: File extracted successfully to: artifacts/data_ingestion
+[2025-08-24 21:49:38,018] INFO in pipeline_data_ingestion: Data ingestion completed successfully!
+[2025-08-24 22:01:00,460] INFO in main: Welcome to our custom logging setup!
+[2025-08-24 22:01:00,460] INFO in main: >>>>>> stage Data Ingestion Stage started <<<<<<
+[2025-08-24 22:01:00,460] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage started <<<<<<
+[2025-08-24 22:01:00,467] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-24 22:01:00,469] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-24 22:01:00,469] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-24 22:01:00,469] INFO in common: created directory at: artifacts
+[2025-08-24 22:01:00,469] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-24 22:01:00,469] INFO in pipeline_data_ingestion: Downloading file...
+[2025-08-24 22:01:00,469] INFO in data_ingestion: Downloading from https://raw.githubusercontent.com/Dadaranger/dataset/main/winequality-white.zip to artifacts/data_ingestion/data.zip
+[2025-08-24 22:01:00,921] INFO in data_ingestion: File downloaded successfully to: artifacts/data_ingestion/data.zip
+[2025-08-24 22:01:00,936] INFO in pipeline_data_ingestion: Extracting file...
+[2025-08-24 22:01:00,936] INFO in data_ingestion: ZIP file contains: ['winequality-white.csv']
+[2025-08-24 22:01:00,943] INFO in data_ingestion: File extracted successfully to: artifacts/data_ingestion
+[2025-08-24 22:01:00,943] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-24 22:01:00,943] INFO in main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x

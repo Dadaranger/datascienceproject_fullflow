@@ -16,3 +16,8 @@ class DataValidationConfig:
     STATUS_FILE: str  # Changed from status_file to STATUS_FILE to match config.yaml
     unzip_data_dir: Path
     all_schema: dict
+
+@dataclass
+class DataTransformationConfig:
+    root_dir: Path
+    data_path: Path

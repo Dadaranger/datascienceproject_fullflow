@@ -15,3 +15,10 @@ data_validation:
 data_transformation:
   root_dir: "artifacts/data_transformation"
   data_path: "artifacts/data_ingestion/winequality-white.csv"
+
+# step 4 model training config
+model_training:
+  root_dir: "artifacts/model_training"
+  train_data_path: "artifacts/data_transformation/train.csv"
+  test_data_path: "artifacts/data_transformation/test.csv"
+  model_name: model.joblib

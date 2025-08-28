@@ -1206,3 +1206,94 @@ x==========x
 [2025-08-28 08:35:15,372] INFO in main: >>>>>> stage Model Evaluation Stage completed <<<<<<
 
 x==========x
+[2025-08-28 09:39:30,961] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.2.0.2:5000
+[2025-08-28 09:39:30,961] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-08-28 09:39:54,693] INFO in _internal: 10.2.0.2 - - [28/Aug/2025 09:39:54] "GET / HTTP/1.1" 200 -
+[2025-08-28 09:39:55,503] INFO in _internal: 10.2.0.2 - - [28/Aug/2025 09:39:55] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+[2025-08-28 09:39:55,509] INFO in _internal: 10.2.0.2 - - [28/Aug/2025 09:39:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-08-28 09:40:47,957] INFO in main: Welcome to our custom logging setup!
+[2025-08-28 09:40:47,957] INFO in main: >>>>>> stage Data Ingestion Stage started <<<<<<
+[2025-08-28 09:40:47,957] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage started <<<<<<
+[2025-08-28 09:40:47,957] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-28 09:40:47,957] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-28 09:40:47,968] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-28 09:40:47,969] INFO in common: created directory at: artifacts
+[2025-08-28 09:40:47,969] INFO in common: created directory at: artifacts/data_ingestion
+[2025-08-28 09:40:47,970] INFO in pipeline_data_ingestion: Downloading file...
+[2025-08-28 09:40:47,971] INFO in pipeline_data_ingestion: Extracting file...
+[2025-08-28 09:40:47,973] INFO in data_ingestion: ZIP file contains: ['winequality-white.csv']
+[2025-08-28 09:40:47,977] INFO in data_ingestion: File extracted successfully to: artifacts/data_ingestion
+[2025-08-28 09:40:47,978] INFO in pipeline_data_ingestion: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-28 09:40:47,978] INFO in main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2025-08-28 09:40:47,979] INFO in main: >>>>>> stage Data Validation Stage started <<<<<<
+[2025-08-28 09:40:47,983] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-28 09:40:47,983] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-28 09:40:47,988] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-28 09:40:47,988] INFO in common: created directory at: artifacts
+[2025-08-28 09:40:47,988] INFO in common: created directory at: artifacts/data_validation
+[2025-08-28 09:40:48,020] INFO in main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x
+[2025-08-28 09:40:48,022] INFO in main: >>>>>> stage Data Transformation Stage started <<<<<<
+[2025-08-28 09:40:48,022] INFO in pipeline_data_transformation: >>>>>> Data Transformation Stage started <<<<<<
+[2025-08-28 09:40:48,030] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-28 09:40:48,032] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-28 09:40:48,035] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-28 09:40:48,035] INFO in common: created directory at: artifacts
+[2025-08-28 09:40:48,036] INFO in common: created directory at: artifacts/data_transformation
+[2025-08-28 09:40:48,134] INFO in data_transformation: Columns in training data: ['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'quality']
+[2025-08-28 09:40:48,134] INFO in data_transformation: Split data into training and test sets
+[2025-08-28 09:40:48,134] INFO in data_transformation: (3918, 12)
+[2025-08-28 09:40:48,134] INFO in data_transformation: (980, 12)
+[2025-08-28 09:40:48,134] INFO in pipeline_data_transformation: >>>>>> Data Transformation Stage completed <<<<<<
+
+x==========x
+[2025-08-28 09:40:48,134] INFO in main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x
+[2025-08-28 09:40:48,139] INFO in main: >>>>>> stage Model Training Stage started <<<<<<
+[2025-08-28 09:40:48,140] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-28 09:40:48,145] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-28 09:40:48,148] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-28 09:40:48,149] INFO in common: created directory at: artifacts
+[2025-08-28 09:40:48,150] INFO in common: created directory at: artifacts/model_training
+[2025-08-28 09:40:48,213] INFO in model_trainer: Processed data columns: ['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'quality']
+[2025-08-28 09:40:48,270] INFO in model_trainer: First few rows of processed data:
+   fixed acidity  volatile acidity  citric acid  residual sugar  chlorides  free sulfur dioxide  total sulfur dioxide  density    pH  sulphates  alcohol  quality
+0            7.3              0.17         0.36            8.20      0.028                 44.0                 111.0  0.99272  3.14       0.41     12.4        6
+1            6.3              0.25         0.44           11.60      0.041                 48.0                 195.0  0.99680  3.18       0.52      9.5        5
+2            5.6              0.32         0.33            7.40      0.037                 25.0                  95.0  0.99268  3.25       0.49     11.1        6
+3            6.9              0.19         0.35            1.70      0.036                 33.0                 101.0  0.99315  3.21       0.54     10.8        7
+4            7.7              0.30         0.26           18.95      0.053                 36.0                 174.0  0.99976  3.20       0.50     10.4        5
+[2025-08-28 09:40:48,310] INFO in model_trainer: Processed data columns: ['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'quality']
+[2025-08-28 09:40:48,332] INFO in model_trainer: First few rows of processed data:
+   fixed acidity  volatile acidity  citric acid  residual sugar  chlorides  free sulfur dioxide  total sulfur dioxide  density    pH  sulphates    alcohol  quality
+0            6.0              0.29         0.41            10.8      0.048                 55.0                 149.0  0.99370  3.09       0.59  10.966667        7
+1            5.4              0.53         0.16             2.7      0.036                 34.0                 128.0  0.98856  3.20       0.53  13.200000        8
+2            7.1              0.25         0.39             2.1      0.036                 30.0                 124.0  0.99080  3.28       0.43  12.200000        8
+3            7.3              0.28         0.35             1.6      0.054                 31.0                 148.0  0.99178  3.18       0.47  10.700000        5
+4            6.5              0.32         0.34             5.7      0.044                 27.0                  91.0  0.99184  3.28       0.60  12.000000        7
+[2025-08-28 09:40:48,360] INFO in model_trainer: Model training completed.
+[2025-08-28 09:40:48,360] INFO in main: >>>>>> stage Model Training Stage completed <<<<<<
+
+x==========x
+[2025-08-28 09:40:48,361] INFO in main: >>>>>> stage Model Evaluation Stage started <<<<<<
+[2025-08-28 09:40:48,366] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\configs\config.yaml loaded successfully.
+[2025-08-28 09:40:48,367] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\params.yaml loaded successfully.
+[2025-08-28 09:40:48,370] INFO in common: YAML file C:\Users\akato\Desktop\MLOps\datascienceproject_fullflow\schema.yaml loaded successfully.
+[2025-08-28 09:40:48,371] INFO in common: created directory at: artifacts
+[2025-08-28 09:40:48,372] INFO in common: created directory at: artifacts/model_evaluation
+[2025-08-28 09:41:02,285] INFO in common: JSON file saved at: artifacts\model_evaluation\metrics.json
+[2025-08-28 09:41:22,038] INFO in main: >>>>>> stage Model Evaluation Stage completed <<<<<<
+
+x==========x
+[2025-08-28 09:41:22,702] INFO in _internal: 10.2.0.2 - - [28/Aug/2025 09:41:22] "GET /train HTTP/1.1" 200 -
+[2025-08-28 09:41:58,208] INFO in _internal: 10.2.0.2 - - [28/Aug/2025 09:41:58] "POST /predict HTTP/1.1" 200 -
+[2025-08-28 09:43:04,623] INFO in _internal: 10.2.0.2 - - [28/Aug/2025 09:43:04] "POST /predict HTTP/1.1" 200 -

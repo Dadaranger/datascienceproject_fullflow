@@ -6,7 +6,7 @@
 2. Data Validation
 3. Data Transformation -- feature engineering, data preprocessing
 4. Model Training
-5. Model Evaluation
+5. Model Evaluation -- MLFLOW, Dagshub
 
 ## Workflows
 

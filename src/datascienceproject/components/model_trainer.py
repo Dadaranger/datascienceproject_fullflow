@@ -17,12 +17,13 @@ class ModelTrainer:
         
         # Get column names from first line, removing extra quotes
         headers = lines[0].strip().strip('"').split(';')
-        headers = [h.strip('"') for h in headers]
+        headers = [h.strip('"').strip() for h in headers]  # Strip both quotes and whitespace
         
         # Process data rows
         data_rows = []
         for line in lines[1:]:
-            values = line.strip().split(';')
+            # Split by semicolon and clean each value
+            values = [val.strip().strip('"').strip() for val in line.strip().split(';')]
             data_rows.append(values)
             
         # Create DataFrame
@@ -34,7 +35,10 @@ class ModelTrainer:
                 df[col] = pd.to_numeric(df[col], errors='coerce')
             else:
                 df[col] = pd.to_numeric(df[col], errors='coerce', downcast='integer')
-                
+        
+        logger.info(f"Processed data columns: {df.columns.tolist()}")
+        logger.info(f"First few rows of processed data:\n{df.head()}")
+        
         return df
 
     def train(self):

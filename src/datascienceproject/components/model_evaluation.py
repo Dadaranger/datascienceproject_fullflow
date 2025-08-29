@@ -13,8 +13,8 @@ from src.datascienceproject.constant import *  # Import all constants
 from src.datascienceproject.utils.common import save_json  
 import os
 #os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/akatoshleiwu/datascienceproject_fullflow.mlflow"
-#os.environ["MLFLOW_TRACKING_USERNAME"] = "akatoshleiwu"
-#os.environ["MLFLOW_TRACKING_PASSWORD"] = "828c62a7c6fa418a0cc0a545305fd26075c66053"
+#os.environ["MLFLOW_TRACKING_USERNAME"] = 
+#os.environ["MLFLOW_TRACKING_PASSWORD"] = 
 
 
 class ModelEvaluation:
